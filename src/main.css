@@ -1,0 +1,91 @@
+
+.d{outline: 1px solid orange;}
+
+
+
+
+/* 
+ cor do campo #F1F3F4
+*/
+
+.navbar{
+
+    display:flex;
+    padding: 0 20px;
+    border-bottom: 1px solid #ddd;
+    /* background-color: cornsilk; */
+}
+
+.navbar .list-inline{
+    margin:  0;
+}
+
+.barra-busca{
+    background-color: #F1F3F4;
+    border:none;
+    height: 35px !important;
+    margin: 0px !important;
+}
+
+
+.navbar-brand img{
+    height:20px !important
+}
+
+.svg{
+    fill: #5f6368 !important;
+    stroke-width: 0.06px;
+   
+
+}
+
+
+.outer{
+    /* border: 1px solid #ddd; */
+    padding: 1px;
+    padding-right: 3px;
+    border-radius: 50% !important;
+    transition: all .7s ease-in-out;
+}
+
+
+
+
+.outer:hover{
+    background-color: #E8EAED;
+}
+.avatar{
+    margin-left: 10px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+
+/* 
+CONTAINER
+
+*/
+
+.container-fluid{
+    min-height: 50vh !important;
+    /* background-color: cornsilk; */
+}
+
+
+.tipos{
+    border-bottom: 2px solid transparent;
+    padding-bottom: 0px;
+    border-radius: 0px;
+    border-bottom-width: 60% !important;
+}
+
+.tipos-box{
+    transition: all .5s linear;
+}
+.tipos-box:hover{
+    background-color:#F2F2F2;
+}
+
+.tipos:active{
+    border-bottom: 2px solid blue;
+}
